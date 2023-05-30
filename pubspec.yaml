@@ -10,12 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    uses-material-design: true
-
-    assets:
-      - lib/images
-
-  google_fonts: ^4.0.5
 
   cupertino_icons: ^1.0.2
 
@@ -29,6 +23,9 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  assets:
+      - lib/images/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
