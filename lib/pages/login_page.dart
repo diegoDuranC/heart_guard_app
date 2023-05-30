@@ -2,6 +2,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:heart_guard/components/my_textfield.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -38,7 +39,12 @@ class _LoginState extends State<Login> {
             const SizedBox(height: 25),
 
             //User field
-            
+            MyTextField(),
+
+            const SizedBox(height: 25),
+
+            //Password
+            MyTextField(),
 
             //Iniciar Sesión
               
