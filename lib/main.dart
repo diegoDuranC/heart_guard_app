@@ -13,6 +13,7 @@ class HeartGuardApp extends StatelessWidget {
     return MaterialApp(
       title: "HeartGuard app",
       home: Login(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
