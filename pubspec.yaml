@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: 
+  azure_cosmosdb: ^2.0.0
 
   cupertino_icons: ^1.0.2
 

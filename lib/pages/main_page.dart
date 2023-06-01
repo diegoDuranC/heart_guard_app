@@ -1,4 +1,6 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
+import '../connection.dart';
 
 class MainPageScreen extends StatelessWidget {
   const MainPageScreen({super.key});
@@ -8,10 +10,11 @@ class MainPageScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Heart Guard"),
+        automaticallyImplyLeading: false,
         backgroundColor: Colors.red[900],
       ),
       body: Center(
-        child: Text("Main Page"),
+        child: ShowBPM(),
       ),
     );
   }

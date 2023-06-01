@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 
@@ -8,10 +10,8 @@ class RegisterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Container(
-        child: Center(
-          child: Text("Registrarse"),
-        ),
+      body: Center(
+          child: Text("Aqui va el formulario para registrarse y el aparato"),
       )
     );
   }
