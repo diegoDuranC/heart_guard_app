@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'dart:math';
 
 class ShowBPM extends StatefulWidget {
   const ShowBPM({super.key});
@@ -42,7 +43,8 @@ class _ShowBPMState extends State<ShowBPM> {
         }
         final average = bpmValues.reduce((a, b) => a + b) / bpmValues.length;
         setState(() {
-          result = average - 474 ;
+          // result = average - (474 + Random().nextInt(4));
+          result = (average/10).abs();
         });
       } else {
         setState(() {
